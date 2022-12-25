@@ -1,0 +1,65 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "AppDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": ".\/",
+   "OutputPath": ".\/",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "DAL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Departments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[usp_addemployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[usp_deleteemployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[usp_getemployee]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[usp_getemployees]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[usp_updateemployee]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": "DESKTOP-GBQPUJN\\SQLEXPRESS.SP25Dec",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
