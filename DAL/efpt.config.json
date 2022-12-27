@@ -7,7 +7,7 @@
    "IncludeConnectionString": true,
    "ModelNamespace": null,
    "OutputContextPath": ".\/",
-   "OutputPath": ".\/",
+   "OutputPath": ".\/entities",
    "PreserveCasingWithRegex": true,
    "ProjectRootNamespace": "DAL",
    "Schemas": null,

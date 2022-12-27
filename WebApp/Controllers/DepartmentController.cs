@@ -1,4 +1,5 @@
 ﻿using DAL;
+using DAL.entities;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
 

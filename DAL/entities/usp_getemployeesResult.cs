@@ -3,13 +3,14 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DAL
+namespace DAL.entities
 {
-    public partial class usp_getemployeeResult
+    public partial class usp_getemployeesResult
     {
         public int EmployeeId { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
         public int DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
     }
 }

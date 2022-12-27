@@ -1,4 +1,5 @@
 ﻿using DAL;
+using DAL.entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Threading;
@@ -10,8 +11,7 @@ namespace WebApp.Controllers
     {
         AppDbContext _db;
 
-        public OutputParameter<bool?> Status { get; private set; }
-
+        public OutputParameter<int?> Status;
         public EmployeeController(AppDbContext db)
         {
             _db = db;
@@ -55,6 +55,7 @@ namespace WebApp.Controllers
                     Address = model.Address,
                     DepartmentId = model.DepartmentId
                 };
+                
                 await _db.Procedures.usp_addemployeeAsync(employee.Name, employee.Address, employee.DepartmentId, Status);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
